@@ -1,0 +1,73 @@
+Consider the following tables called “Customer” and "Orders" to write SQL queries for below exercises.  
+
+Before working on exercises create below tables and insert records into Customer and Orders tables. 
+
+Table: Customer 
+
+Cnum 	Cname 		city 		rating 	snum 
+
+2001 	Hoffman 	London 		100 	1001 
+
+2002 	Giovanni 	Rome 		200 	1003 
+
+2003 	Liu 		San Jose 	200 	1002 
+
+2004 	Grass 		Berlin 		300 	1002 
+
+2006 	Clemens 	London 		100 	1001 
+
+2008 	Cisneros 	San Jose 	300 	1007 
+
+2007 	Pereira  	Rome 		100 	1004 
+
+ 
+
+Table: Orders 
+
+Onum 	amt 		odate 		cnum 
+
+3001 	18.69 		10-03-2022 	2008 
+
+3003 	767.19 		10-03-2022 	2001 
+
+3002 	1900.1 		10-03-2022 	2007 
+
+3005 	5160.45 	10-03-2022 	2003 
+
+3006 	1098.16 	11-04-2022 	2008 
+
+3009 	1713.23 	11-04-2022 	2002 
+
+3007 	75.75 		11-04-2022 	2002 
+
+3008 	4723.45 	10-05-2022 	2006 
+
+3010 	1309.95 	19-06-2022 	2004 
+
+3011 	9891.56 	10-06-2022 	2006 
+
+ 
+
+Exercise: 1 
+
+ Write a SQL Query to display all the customers information who placed order in orders table. 
+
+Exercise: 2 
+
+ Write a SQL Query to display all the customers information who are not placed order in orders table. 
+
+Exercise: 3 
+
+ Write a SQL Query to display the customer information with maximum order. 
+
+Exercise: 4 
+
+ Write a SQL Query to display the customer information with minimum order. 
+
+Exercise: 5 
+
+ Write a SQL Query to display all the customer information whose order amount is greater than average order amount of orders table. 
+
+Exercise: 6 
+
+ Write a SQL Query to display the customer information who placed order on 10-03-2022 in orders table. 
